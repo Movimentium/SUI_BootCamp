@@ -6,7 +6,7 @@ import SwiftUI
 
 struct B32_View: View {
     var body: some View {
-        VStack(alignment: .center, spacing: 10){
+        VStack {
             Text("First Line")
                 .frame(maxWidth: .infinity, alignment: .leading)
                 .border(.red)
@@ -15,6 +15,8 @@ struct B32_View: View {
                 .font(.title3)
                 .foregroundStyle(.cyan)
             Text("Second Line")
+                .frame(maxWidth: .infinity)
+                .multilineTextAlignment(.leading)
                 .border(.red)
                 .foregroundStyle(.green)
             Text("Third Line")
