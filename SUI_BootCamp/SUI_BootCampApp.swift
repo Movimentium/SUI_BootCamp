@@ -11,7 +11,7 @@ import SwiftUI
 struct SUI_BootCampApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            B32_View()
         }
     }
 }

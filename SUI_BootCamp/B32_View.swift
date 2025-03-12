@@ -1,13 +1,10 @@
-//
-//  ContentView.swift
+//  B32_View.swift
 //  SUI_BootCamp
-//
 //  Created by Miguel Gallego on 12/3/25.
-//
 
 import SwiftUI
 
-struct ContentView: View {
+struct B32_View: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -20,5 +17,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    B32_View()
 }

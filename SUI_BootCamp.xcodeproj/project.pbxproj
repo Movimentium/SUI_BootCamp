@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		0CA6B38C2D8233C300DD093F /* SUI_BootCampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA6B38B2D8233C300DD093F /* SUI_BootCampApp.swift */; };
-		0CA6B38E2D8233C400DD093F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA6B38D2D8233C400DD093F /* ContentView.swift */; };
+		0CA6B38E2D8233C400DD093F /* B32_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA6B38D2D8233C400DD093F /* B32_View.swift */; };
 		0CA6B3902D8233C600DD093F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CA6B38F2D8233C600DD093F /* Assets.xcassets */; };
 		0CA6B3932D8233C600DD093F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CA6B3922D8233C600DD093F /* Preview Assets.xcassets */; };
+		0CA6B39A2D82348B00DD093F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0CA6B3992D82348B00DD093F /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0CA6B3882D8233C300DD093F /* SUI_BootCamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SUI_BootCamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CA6B38B2D8233C300DD093F /* SUI_BootCampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUI_BootCampApp.swift; sourceTree = "<group>"; };
-		0CA6B38D2D8233C400DD093F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0CA6B38D2D8233C400DD093F /* B32_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B32_View.swift; sourceTree = "<group>"; };
 		0CA6B38F2D8233C600DD093F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CA6B3922D8233C600DD093F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0CA6B3992D82348B00DD093F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +37,7 @@
 		0CA6B37F2D8233C300DD093F = {
 			isa = PBXGroup;
 			children = (
+				0CA6B3992D82348B00DD093F /* README.md */,
 				0CA6B38A2D8233C300DD093F /* SUI_BootCamp */,
 				0CA6B3892D8233C300DD093F /* Products */,
 			);
@@ -52,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				0CA6B38B2D8233C300DD093F /* SUI_BootCampApp.swift */,
-				0CA6B38D2D8233C400DD093F /* ContentView.swift */,
+				0CA6B38D2D8233C400DD093F /* B32_View.swift */,
 				0CA6B38F2D8233C600DD093F /* Assets.xcassets */,
 				0CA6B3912D8233C600DD093F /* Preview Content */,
 			);
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CA6B39A2D82348B00DD093F /* README.md in Resources */,
 				0CA6B3932D8233C600DD093F /* Preview Assets.xcassets in Resources */,
 				0CA6B3902D8233C600DD093F /* Assets.xcassets in Resources */,
 			);
@@ -137,7 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CA6B38E2D8233C400DD093F /* ContentView.swift in Sources */,
+				0CA6B38E2D8233C400DD093F /* B32_View.swift in Sources */,
 				0CA6B38C2D8233C300DD093F /* SUI_BootCampApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
