@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C1336C82D82585A009A8436 /* B35_Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1336C72D82585A009A8436 /* B35_Navigation.swift */; };
 		0CA6B38C2D8233C300DD093F /* SUI_BootCampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA6B38B2D8233C300DD093F /* SUI_BootCampApp.swift */; };
 		0CA6B38E2D8233C400DD093F /* B32_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA6B38D2D8233C400DD093F /* B32_View.swift */; };
 		0CA6B3902D8233C600DD093F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CA6B38F2D8233C600DD093F /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C1336C72D82585A009A8436 /* B35_Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = B35_Navigation.swift; sourceTree = "<group>"; };
 		0CA6B3882D8233C300DD093F /* SUI_BootCamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SUI_BootCamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CA6B38B2D8233C300DD093F /* SUI_BootCampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SUI_BootCampApp.swift; sourceTree = "<group>"; };
 		0CA6B38D2D8233C400DD093F /* B32_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B32_View.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				0CA6B38D2D8233C400DD093F /* B32_View.swift */,
 				0CA6B39B2D823A0A00DD093F /* B33_Image.swift */,
 				0CA6B39D2D824EDB00DD093F /* B34_List_Imgs.swift */,
+				0C1336C72D82585A009A8436 /* B35_Navigation.swift */,
 				0CA6B38F2D8233C600DD093F /* Assets.xcassets */,
 				0CA6B3912D8233C600DD093F /* Preview Content */,
 			);
@@ -148,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CA6B39C2D823A0A00DD093F /* B33_Image.swift in Sources */,
+				0C1336C82D82585A009A8436 /* B35_Navigation.swift in Sources */,
 				0CA6B39E2D824EDB00DD093F /* B34_List_Imgs.swift in Sources */,
 				0CA6B38E2D8233C400DD093F /* B32_View.swift in Sources */,
 				0CA6B38C2D8233C300DD093F /* SUI_BootCampApp.swift in Sources */,

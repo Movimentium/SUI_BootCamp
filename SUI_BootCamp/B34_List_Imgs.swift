@@ -38,7 +38,7 @@ struct B34_List_Imgs: View {
 
 // MARK: - Model
 
-struct Hike: Identifiable {
+struct Hike: Identifiable, Hashable {
     let id = UUID()
     let name: String
     let photo: String
