@@ -4,14 +4,15 @@
 
 import SwiftUI
 
+let hikes = [
+    Hike(name: "Salmonberry Trail", photo: "imgSal", miles: 6),
+    Hike(name: "Tom, Dick, and Harry Mountain", photo: "imgTom", miles: 5.8),
+    Hike(name: "Tamanawas", photo: "imgTam", miles: 5)
+]
+
 struct B35_Navigation: View {
     
-    let hikes = [
-        Hike(name: "Salmonberry Trail", photo: "imgSal", miles: 6),
-        Hike(name: "Tom, Dick, and Harry Mountain", photo: "imgTom", miles: 5.8),
-        Hike(name: "Tamanawas", photo: "imgTam", miles: 5)
-    ]
-    
+
     var body: some View {
         NavigationStack {
             List(hikes) { hike in
@@ -21,7 +22,7 @@ struct B35_Navigation: View {
             }
             .navigationTitle("Hikes")
             .navigationDestination(for: Hike.self) { hike in
-                Text(hike.name)
+                B36_DetailView(hike: hike)
             }
         }
     }
