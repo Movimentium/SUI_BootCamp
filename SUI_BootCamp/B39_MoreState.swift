@@ -1,9 +1,9 @@
-//  B39_MoreStateView.swift
+//  B39_MoreState.swift
 //  SUI_BootCamp
 //  Created by Miguel Gallego on 15/4/25.
 import SwiftUI
 
-struct B39_MoreStateView: View {
+struct B39_MoreState: View {
     @State private var isOn: Bool = false
     
     var body: some View {
@@ -20,5 +20,5 @@ struct B39_MoreStateView: View {
 }
 
 #Preview {
-    B39_MoreStateView()
+    B39_MoreState()
 }

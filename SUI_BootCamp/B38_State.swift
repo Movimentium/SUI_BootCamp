@@ -1,9 +1,9 @@
-//  B38_StateView.swift
+//  B38_State.swift
 //  SUI_BootCamp
 //  Created by Miguel Gallego on 15/4/25.
 import SwiftUI
 
-struct B38_StateView: View {
+struct B38_State: View {
     @State private var count: Int = 0
     
     var body: some View {
@@ -18,5 +18,5 @@ struct B38_StateView: View {
 }
 
 #Preview {
-    B38_StateView()
+    B38_State()
 }
