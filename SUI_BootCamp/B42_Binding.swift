@@ -5,7 +5,7 @@ import SwiftUI
 
 struct BombillaView: View {
     
-    @State private var isOn: Bool = true
+    @Binding  var isOn: Bool
     
     
     var body: some View {
@@ -13,20 +13,26 @@ struct BombillaView: View {
             Image(systemName: "lightbulb")
                 .font(.largeTitle)
                 .symbolVariant(isOn ? .fill : .none)
-                .foregroundStyle(isOn ? .yellow : .black, .black)
+                .foregroundStyle(isOn ? .yellow : .gray, .gray)
+                .padding()
             Button("Toggle") {
                 isOn.toggle()
             }
+            .buttonStyle(.borderedProminent)
         }
     }
     
 }
 
 struct B42_Binding: View {
+    @State private var isLightOn: Bool = false
+    
     var body: some View {
         VStack {
-            BombillaView()
+            BombillaView(isOn: $isLightOn)
         }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(isLightOn ? .white : .black)
     }
 }
 
