@@ -1,10 +1,6 @@
-//
 //  SUI_BootCampApp.swift
 //  SUI_BootCamp
-//
 //  Created by Miguel Gallego on 12/3/25.
-//
-
 import SwiftUI
 
 @main

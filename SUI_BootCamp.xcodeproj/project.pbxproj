@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C0D36CF2DAE8E1A0058EDEA /* B38_StateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0D36CE2DAE8E1A0058EDEA /* B38_StateView.swift */; };
 		0C1336C82D82585A009A8436 /* B35_Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1336C72D82585A009A8436 /* B35_Navigation.swift */; };
 		0C2F1D3C2D937921001D0982 /* B36_DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2F1D3B2D937921001D0982 /* B36_DetailView.swift */; };
 		0CA6B38C2D8233C300DD093F /* SUI_BootCampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA6B38B2D8233C300DD093F /* SUI_BootCampApp.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C0D36CE2DAE8E1A0058EDEA /* B38_StateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B38_StateView.swift; sourceTree = "<group>"; };
 		0C1336C72D82585A009A8436 /* B35_Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = B35_Navigation.swift; sourceTree = "<group>"; };
 		0C2F1D3B2D937921001D0982 /* B36_DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = B36_DetailView.swift; sourceTree = "<group>"; };
 		0CA6B3882D8233C300DD093F /* SUI_BootCamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SUI_BootCamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +70,7 @@
 				0CA6B39D2D824EDB00DD093F /* B34_List_Imgs.swift */,
 				0C1336C72D82585A009A8436 /* B35_Navigation.swift */,
 				0C2F1D3B2D937921001D0982 /* B36_DetailView.swift */,
+				0C0D36CE2DAE8E1A0058EDEA /* B38_StateView.swift */,
 				0CA6B38F2D8233C600DD093F /* Assets.xcassets */,
 				0CA6B3912D8233C600DD093F /* Preview Content */,
 			);
@@ -157,6 +160,7 @@
 				0C2F1D3C2D937921001D0982 /* B36_DetailView.swift in Sources */,
 				0C1336C82D82585A009A8436 /* B35_Navigation.swift in Sources */,
 				0CA6B39E2D824EDB00DD093F /* B34_List_Imgs.swift in Sources */,
+				0C0D36CF2DAE8E1A0058EDEA /* B38_StateView.swift in Sources */,
 				0CA6B38E2D8233C400DD093F /* B32_View.swift in Sources */,
 				0CA6B38C2D8233C300DD093F /* SUI_BootCampApp.swift in Sources */,
 			);

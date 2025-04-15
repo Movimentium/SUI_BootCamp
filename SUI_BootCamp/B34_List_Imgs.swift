@@ -1,7 +1,6 @@
 //  B34_List_Imgs.swift
 //  SUI_BootCamp
 //  Created by Miguel Gallego on 13/3/25.
-
 import SwiftUI
 
 struct B34_List_Imgs: View {
