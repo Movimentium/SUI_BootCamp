@@ -1,9 +1,9 @@
-//  B42_Binding.swift
+//  B43_A_Binding.swift
 //  SUI_BootCamp
 //  Created by Miguel Gallego on 15/4/25.
 import SwiftUI
 
-struct BombillaView: View {
+struct LuzView: View {
     @Binding  var isOn: Bool
     
     var body: some View {
@@ -19,15 +19,24 @@ struct BombillaView: View {
             .buttonStyle(.borderedProminent)
         }
     }
-    
 }
 
-struct B42_Binding: View {
+
+struct HabitacionConLuzView: View {
+    @Binding var isOn: Bool
+    
+    var body: some View {
+        LuzView(isOn: $isOn)
+    }
+}
+
+
+struct B43_A_Binding: View {
     @State private var isLightOn: Bool = false
     
     var body: some View {
         VStack {
-            BombillaView(isOn: $isLightOn)
+            HabitacionConLuzView(isOn: $isLightOn)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(isLightOn ? .white : .black)
@@ -35,5 +44,5 @@ struct B42_Binding: View {
 }
 
 #Preview {
-    B42_Binding()
+    B43_A_Binding()
 }
