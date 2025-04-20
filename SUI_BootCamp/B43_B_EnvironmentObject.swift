@@ -4,22 +4,22 @@
 import SwiftUI
 
 // Pre iOS 17
-class LightState: ObservableObject {
+class LedState: ObservableObject {
     @Published var isOn: Bool = false
 }
 
 struct LedView: View {
-    @EnvironmentObject private var lightState: LightState
+    @EnvironmentObject private var ledState: LedState
 
     var body: some View {
         VStack {
             Image(systemName: "lightbulb")
                 .font(.largeTitle)
-                .symbolVariant(lightState.isOn ? .fill : .none)
-                .foregroundStyle(lightState.isOn ? .yellow : .gray, .gray)
+                .symbolVariant(ledState.isOn ? .fill : .none)
+                .foregroundStyle(ledState.isOn ? .yellow : .gray, .gray)
                 .padding()
             Button("Toggle") {
-                lightState.isOn.toggle()
+                ledState.isOn.toggle()
             }
             .buttonStyle(.borderedProminent)
         }
@@ -35,25 +35,25 @@ struct HabitacionConLedView: View {
 
 
 struct B43_B_EnvironmentObject: View {
-    @EnvironmentObject private var lightState: LightState
+    @EnvironmentObject private var ledState: LedState
     
     var body: some View {
         VStack {
             HabitacionConLedView()
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(lightState.isOn ? .white : .black)
+        .background(ledState.isOn ? .white : .black)
     }
 }
 
 #Preview {
     B43_B_EnvironmentObject()
-        .environmentObject(LightState())
+        .environmentObject(LedState())
 }
 
 // En NombreProyApp.swift (donde está @main)
 //
-// @StateObject private var lightState = LightState()
+// @StateObject private var ledState = LedState()
 // ...
 //      ContentView()
-//          .environmentObject(lightState)
+//          .environmentObject(ledState)
